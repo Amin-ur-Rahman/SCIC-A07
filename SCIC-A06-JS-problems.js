@@ -20,7 +20,7 @@ function countVowel(str) {
 
 function checkIfPalindrome(str) {
   const revStr = str.toLowerCase().split("").reverse().join("");
-  if (str === revStr) {
+  if (str.toLowerCase() === revStr) {
     return true;
   } else {
     return false;
